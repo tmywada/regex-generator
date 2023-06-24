@@ -1,0 +1,18 @@
+{
+    "base": {
+            "digit": "0-9",
+            "alphabet_lower": "a-z",
+            "alphabet_upper": "A-Z",
+            "whitespace": "\\s",
+            "punctuation": "\\.\\-\\?,_!",
+            "dot": "\\."
+    },
+    "composite": {
+        "alphabet_mix": ["alphabet_lower", "alphabet_upper"],
+        "alphanumeric_lower": ["digit", "alphabet_lower"],
+        "alphanumeric_upper": ["digit", "alphabet_upper"],
+        "alphanumeric_mix": ["digit", "alphabet_lower", "alphabet_upper"],
+        "alphanumeric_mix__punctuation": ["digit", "alphabet_lower", "alphabet_upper", "punctuation"],
+        "float": ["digit", "dot"]
+    }
+}
