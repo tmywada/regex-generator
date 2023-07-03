@@ -1,0 +1,11 @@
+{
+    "categories": [
+        "base",
+        "composite"
+    ],
+    "regex_types_selected": [
+        "alphabet_mix",
+        "digit",
+        "dot"
+    ]
+}

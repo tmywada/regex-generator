@@ -1,9 +1,0 @@
-{
-    "file_path_definition": "./data/definition__regex.json",
-    "categories": ["base", "composite"],
-    "regex_types_coase": [
-        "alphabet_mix",
-        "digit",
-        "dot"
-    ]
-}
