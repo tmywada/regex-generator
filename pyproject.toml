@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "regex-generator"
+name = "regex-generator-env"
 version = "0.1.0"
 description = ""
 authors = ["Tomoya Wada"]
@@ -13,6 +13,7 @@ black = "^23.3.0"
 flake8 = "^6.0.0"
 pytest = "^7.4.0"
 pip = "^23.1.2"
+regex-generator = {path = "dist/regex_generator-0.0.1-py3-none-any.whl"}
 
 
 [tool.poetry.group.dev.dependencies]
